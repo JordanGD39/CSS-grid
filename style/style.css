@@ -1,0 +1,55 @@
+#validatie img {
+    height: 2em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+    margin-left: 20px;
+}
+
+p, h2, h3 {
+  margin-left: 20px;
+}
+
+section {
+  display: block;
+  width: 350px;
+  margin-left: 100px;
+  background-color: #fff;
+}
+
+aside a {
+  transition-duration: 0.2s;
+}
+
+aside a:hover {
+  font-size: 25px;
+}
+
+@media screen and (min-width: 60em) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: sans-serif;
+    background-color: #f6ab1d;
+    grid-gap: 20px;
+  }
+
+  header {
+    grid-column: 1/4;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  aside {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+.lowerPart {
+  background-color: #fff;
+}
+
+  footer {
+    grid-column: 1/4;
+  }
+}
